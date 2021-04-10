@@ -43,12 +43,39 @@
             </section>
 
 
-            <!--            <section>-->
-            <!--                <h3>深度学习中的对抗</h3>-->
-            <!--                <hr>-->
-            <!--                <img src="https://i.loli.net/2021/04/09/CDonps1WQBhg5wu.png" style="width: 1000px;height: 500px;"-->
-            <!--                     width="800px" height="600px">-->
-            <!--            </section>-->
+            <section>
+                <h3>人工智能——万物互联的时代</h3>
+                <hr>
+                <img src="https://i.loli.net/2021/04/10/6dOH4YZW3yvPgRr.png"
+                     style="width: 1000px;height: 500px;" width="800px" height="600px">
+            </section>
+
+            <section>
+                <h3>无人驾驶场景</h3>
+                <hr>
+                <img src="https://i.loli.net/2021/04/09/r9jU1X8g4kHSf7h.png"
+                     style="width: 1000px;height: 500px;" width="800px" height="600px">
+            </section>
+
+            <section>
+                <h3>对抗样本</h3>
+                <img src="https://i.loli.net/2021/04/09/vlPjhFe9CMTAbRu.png" style="width: 1000px;height: 500px;"
+                     width="800px" height="600px">
+
+                <aside class="notes">
+                    随着深度学习的不断发展，基于深度神经网络（DNN）的模型在很多数据集上的表现都已经超越了人类的水平，然而对抗攻击(adversarial
+                    attack)的出现却让我们开始怀疑DNN是否真正学习到了有用的信息。
+                    对抗攻击大致可以理解为，给定一张猫的图片，训练好的DNN可以准确地对图片进行分类，然而如果在原始图片上加上一些特定的噪音，虽然在人的肉眼看来这张图片几乎没有什么改变，仍然可以清晰地认出这是一只猫，
+                    但是DNN却有可能得到一个完全不同的分类结果。换句话说就是，输入样本的微小改变就可能会导致模型的准确度大幅度下降。
+                </aside>
+            </section>
+
+            <section>
+                <h3>什么样的样本是好的对抗样本？</h3>
+                <hr>
+                <p class="fragment" style="font-size: 30px;">1. 相对于原始输入，所添加的扰动是微小的</p>
+                <p class="fragment" style="font-size: 30px;">2. 能使模型犯错。</p>
+            </section>
 
             <section>
                 <h3>深度学习中的对抗</h3>
@@ -65,33 +92,8 @@
                 <p style="font-size: 30px;">可靠的人工智能应用场景需要很高的鲁棒性、安全性、可解释和可靠性</p>
             </section>
 
-            <section>
-                <h3>无人驾驶场景</h3>
-                <hr>
-                <img src="https://i.loli.net/2021/04/09/r9jU1X8g4kHSf7h.png"
-                     style="width: 1000px;height: 500px;" width="800px" height="600px">
-            </section>
 
 
-            <section>
-                <h3>什么样的样本是好的对抗样本？</h3>
-                <hr>
-                <p class="fragment" style="font-size: 30px;">1. 相对于原始输入，所添加的扰动是微小的</p>
-                <p class="fragment" style="font-size: 30px;">2. 能使模型犯错。</p>
-            </section>
-
-            <section>
-                <h3>对抗样本</h3>
-                <img src="https://i.loli.net/2021/04/09/vlPjhFe9CMTAbRu.png" style="width: 1000px;height: 500px;"
-                     width="800px" height="600px">
-
-                <aside class="notes">
-                    随着深度学习的不断发展，基于深度神经网络（DNN）的模型在很多数据集上的表现都已经超越了人类的水平，然而对抗攻击(adversarial
-                    attack)的出现却让我们开始怀疑DNN是否真正学习到了有用的信息。
-                    对抗攻击大致可以理解为，给定一张猫的图片，训练好的DNN可以准确地对图片进行分类，然而如果在原始图片上加上一些特定的噪音，虽然在人的肉眼看来这张图片几乎没有什么改变，仍然可以清晰地认出这是一只猫，
-                    但是DNN却有可能得到一个完全不同的分类结果。换句话说就是，输入样本的微小改变就可能会导致模型的准确度大幅度下降。
-                </aside>
-            </section>
 
 
             <section>
@@ -200,16 +202,36 @@
 
         </section>
 
+
         <section data-background-transition="zoom">
             <section data-background-transition="zoom">
                 <h2>GNN 中的对抗攻击</h2>
 
             </section>
             <section data-background-transition="zoom">
-
+                <h2>结构攻击 & 特征攻击</h2>
+                <img src="https://i.loli.net/2021/04/10/euEiCdStPJRWypk.png" style="width: 700px;height: 300px;">
+                <h3 style="font-size: 30px">
+                    \[\begin{aligned}
+                    G(A,X）
+                    \end{aligned} \]
+                </h3>
+                <p class="fragment" style="font-size: 30px;">场景：金融诈骗伪装</p>
             </section>
-
         </section>
+
+        <section data-background-transition="zoom">
+            <section data-background-transition="zoom">
+                <h2>我的实验</h2>
+                <hr>
+                <a href="https://www.biendata.xyz/competition/haihua_2021/leaderboard/" target="_blank">海华阅读理解中文挑战赛</a>
+                <img src="https://i.loli.net/2021/04/10/25OJRhvQPuxrUba.png" style="width: 700px;height: 300px;">
+            </section>
+            <section data-background-transition="zoom">
+                <img src="https://i.loli.net/2021/04/10/8ujGxwd7L9EDZgO.png" style="width: 700px;height: 300px;">
+            </section>
+        </section>
+
 
 
         <section data-background-transition="zoom">
